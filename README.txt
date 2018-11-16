@@ -17,8 +17,17 @@ z.B. exisitiert eine Route in der config, bei der ein Controller mit der action 
 Der IndexController hat eine indexAction, die ein ViewModel zurückliefert und wofür es zum einen eine layout.phtml gibt 
 und im ordner view->index eine index.phtml
 
-einfache Ausführung mit php -S localhost:8080 -t . public/index.php aus dem Ordner zend
+Ausführung mit "php -S localhost:8080 -t public index.php" aus dem Ordner skeleton-applikation oder mit "composer run --timeout 0 serve"
 
+
+# Run CS checks:
+$ composer cs-check
+# Fix CS errors:
+$ composer cs-fix
+# Run PHPUnit tests:
+$ composer test --führt die phpunit-Tests aus, alternativ "vendor/bin/phpunit"
+
+Das hier verwendete Projekt hält sich an das Tutorial: https://docs.zendframework.com/tutorials/getting-started/overview/ 
 
 Quellen:
 Lynda: https://www.lynda.com/PHP-tutorials/Intro-Zend-3/540346/579823-4.html
