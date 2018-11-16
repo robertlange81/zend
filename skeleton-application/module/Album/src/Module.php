@@ -39,4 +39,17 @@ class Module implements ConfigProviderInterface
             ],
         ];
     }
+    
+    public function getControllerConfig()
+    {
+        return [
+            'factories' => [
+                Controller\AlbumController::class => function($container) {
+                    return new Controller\AlbumController(
+                        $container->get(Model\AlbumTable::class)
+                    );
+                },
+            ],
+        ];
+    }
 }
