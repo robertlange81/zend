@@ -28,14 +28,14 @@ return [
                 'type'    => Segment::class,
                 'options' => [
                     'route'    => '/application[/:action]',
-                    'defaults' => [
-                        'controller' => Controller\IndexController::class,
-                        'action'     => 'index',
+                    'constraints' => [
+                        'action' => '[a-zA-Z][a-zA-Z0-9_-]*',
+                        'id'     => '[0-9]+',
                     ],
                     'route'    => '/application/example',
                     'defaults' => [
                         'controller' => Controller\ExampleController::class,
-                        'action'     => 'example',
+                        'action'     => 'index',
                     ],
                 ],
             ],

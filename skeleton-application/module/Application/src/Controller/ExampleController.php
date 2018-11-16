@@ -12,10 +12,10 @@ use Zend\View\Model\ViewModel;
 
 class ExampleController extends AbstractActionController
 {
-    
-    public function exampleAction()
+        
+    public function indexAction()
     {
         return new ViewModel();
-    }    
+    }
 
 }

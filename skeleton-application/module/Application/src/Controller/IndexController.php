@@ -15,11 +15,5 @@ class IndexController extends AbstractActionController
     public function indexAction()
     {
         return new ViewModel();
-    }
-    
-    public function exampleAction()
-    {
-        return new ViewModel();
-    }    
-
+    }   
 }
