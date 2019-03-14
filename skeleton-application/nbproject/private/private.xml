@@ -2,19 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/home/rlange/zend/skeleton-application/config/autoload/zend-developer-tools.local-development.php</file>
-            <file>file:/home/rlange/zend/skeleton-application/module/Album/src/Form/AlbumForm.php</file>
-            <file>file:/home/rlange/zend/skeleton-application/module/Album/config/module.config.php</file>
-            <file>file:/home/rlange/zend/skeleton-application/module/Album/src/Controller/AlbumController.php</file>
-            <file>file:/home/rlange/zend/skeleton-application/module/Application/config/module.config.php</file>
-            <file>file:/home/rlange/zend/skeleton-application/module/Album/src/Module.php</file>
-            <file>file:/home/rlange/zend/skeleton-application/module/Album/view/album/album/add.phtml</file>
-            <file>file:/home/rlange/zend/skeleton-application/module/Album/view/album/album/index.phtml</file>
-            <file>file:/home/rlange/zend/skeleton-application/config/autoload/global.php</file>
-            <file>file:/home/rlange/zend/skeleton-application/module/Application/src/Controller/IndexController.php</file>
-            <file>file:/home/rlange/zend/skeleton-application/module/Album/src/Model/Album.php</file>
-            <file>file:/home/rlange/zend/skeleton-application/module/Album/src/Model/AlbumTable.php</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
