@@ -15,14 +15,13 @@ use Zend\View\Model\ViewModel;
 
 class AlbumController extends AbstractActionController
 {
-    
     private $table;
 
     public function __construct(AlbumTable $table)
     {
-        $this->table = $table;        
+        $this->table = $table;
     }
-    
+
     public function indexAction()
     {
         $x = 1;
@@ -38,7 +37,7 @@ class AlbumController extends AbstractActionController
 
         $request = $this->getRequest();
 
-        if (!$request->isPost()) {
+        if (! $request->isPost()) {
             return ['form' => $form];
         }
 
@@ -52,7 +51,7 @@ class AlbumController extends AbstractActionController
 
         $album->exchangeArray($form->getData());
         $this->table->saveAlbum($album);
-        return $this->redirect()->toRoute('album');        
+        return $this->redirect()->toRoute('album');
     }
 
     public function editAction()

@@ -2,6 +2,6 @@ zf:
   build: .
   dockerfile: Dockerfile
   ports:
-   - "127.0.0.1:8081:8081"
+   - "127.0.0.1:80:80"
   volumes:
-   - .:/home/rlange/zend/skeleton-application
+   - .:/var/www
